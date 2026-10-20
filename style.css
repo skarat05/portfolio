@@ -325,3 +325,14 @@ section p {
     background-color: #134e4a;
     transform: translateY(-3px);
 }
+
+/* Project screenshots */
+
+.project-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 1px solid #334155;
+}
