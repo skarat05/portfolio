@@ -236,3 +236,47 @@ section p {
     border-left: 3px solid #5eead4;
     line-height: 1.5;
 }
+
+/* Contact section */
+
+#contact {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px 20px;
+}
+
+#contact h2 {
+    color: #5eead4;
+    font-size: 32px;
+}
+
+#contact p {
+    color: #cbd5e1;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.contact-links a {
+    display: inline-block;
+    background-color: #1e293b;
+    color: #e2e8f0;
+    border: 1px solid #5eead4;
+    border-radius: 10px;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.contact-links a:hover {
+    background-color: #134e4a;
+    color: #5eead4;
+    transform: translateY(-3px);
+}
