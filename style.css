@@ -280,3 +280,48 @@ section p {
     color: #5eead4;
     transform: translateY(-3px);
 }
+
+/* Homepage buttons */
+
+.home-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.home-buttons a {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+/* Primary button */
+
+.primary-button {
+    background-color: #0d9488;
+    color: #ffffff;
+}
+
+.primary-button:hover {
+    background-color: #0f766e;
+    transform: translateY(-3px);
+}
+
+/* Secondary button */
+
+.secondary-button {
+    background-color: transparent;
+    color: #5eead4;
+    border: 1px solid #5eead4;
+}
+
+.secondary-button:hover {
+    background-color: #134e4a;
+    transform: translateY(-3px);
+}
